@@ -1,0 +1,44 @@
+#p-home {
+    background-color: brown;
+}
+
+.g-header {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 150px;
+    justify-items: center;
+    align-items: center;
+    background-color: beige;
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+}
+
+.main-header {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+#p-home #s-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: beige;
+    font-size: 2rem;
+    border-bottom: 2px solid darkblue;
+}
+
+#p-home #s-home-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: beige;
+    font-size: 2rem;
+}
