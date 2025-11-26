@@ -45,12 +45,18 @@ a:hover {
     font-family: "Outfit";
 }
 
-#p-home section {
-    display: grid;
-    grid-template-columns: 500px 1fr
+#p-home #main-paragraph {
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
 }
 
-#p-home section #me {
+#p-home #s-main-aside {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    margin-top: 3px;
+}
+
+#p-home #s-main-aside #me {
     display: flex;
     justify-self: flex-end;
     align-items: center;
