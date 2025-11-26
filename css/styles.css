@@ -103,6 +103,28 @@ a:hover {
     background-color: brown;
 }
 
+#p-webApp #s-webApp-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: beige;
+    gap: 30px;
+}
+
+.g-webApp-List {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.g-webApp-Image {
+  margin-top: auto; /* ensures it sticks to the bottom */
+}
+
+
+
+
+
+
 @media (max-width: 880px) {
 
 
