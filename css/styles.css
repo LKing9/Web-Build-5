@@ -1,6 +1,6 @@
-#p-home {
-    background-color: brown;
-}
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .g-header {
     display: grid;
@@ -11,9 +11,11 @@
     background-color: beige;
     color: darkblue;
     border-bottom: 2px solid darkblue;
+    font-family: "Irish Grover";
+    font-size: 1.5rem;
 }
 
-.main-header {
+.g-main-header {
     font-size: 3rem;
     font-weight: bold;
 }
@@ -23,22 +25,80 @@ a {
     color: darkblue;
 }
 
-a :hover {
+a:hover {
     text-decoration: underline;
+}
+
+#p-home {
+    background-color: brown;
 }
 
 #p-home #s-main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 325px;
     background-color: beige;
-    font-size: 2rem;
+    font-size: 1.7rem;
     border-bottom: 2px solid darkblue;
+    justify-self: center;
+    text-align: center;
+    font-family: "Outfit";
+}
+
+#p-home section {
+    display: grid;
+    grid-template-columns: 500px 1fr
+}
+
+#p-home section #me {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
 }
 
 #p-home #s-home-footer {
     display: grid;
     grid-template-columns: 1fr;
     background-color: beige;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-family: "Outfit";
+}
+
+#p-resume {
+    background-color: brown;
+    font-family: "Outfit";
+}
+
+#p-resume #s-resume-main {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: auto;
+    background-color: beige;
+}
+
+#p-resume #s-resume-main section:nth-of-type(2) {
+    grid-column: 2;
+    justify-self: end;
+}
+
+#p-resume #s-resume-main section:nth-of-type(3) {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    text-align: center;
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+}
+
+
+#p-resume #s-resume-footer {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    justify-self: center;
+    background-color: beige;
+    border: 2px solid darkblue;
+    margin-top: 5px;
+}
+
+#p-webApp {
+    background-color: brown;
 }
