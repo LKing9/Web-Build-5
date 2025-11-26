@@ -4,7 +4,7 @@
 
 .g-header {
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: 100px 100px 1fr 100px 100px;
     grid-template-rows: 150px;
     justify-items: center;
     align-items: center;
@@ -36,7 +36,7 @@ a:hover {
 #p-home #s-main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 150px 325px;
+    grid-template-rows: 125px 125px 325px;
     background-color: beige;
     font-size: 1.7rem;
     border-bottom: 2px solid darkblue;
@@ -50,15 +50,9 @@ a:hover {
     border-bottom: 2px solid darkblue;
 }
 
-#p-home #s-main-aside {
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    margin-top: 3px;
-}
-
-#p-home #s-main-aside #me {
+#p-home #s-main-aside{
     display: flex;
-    justify-self: flex-end;
+    justify-self: center;
     align-items: center;
 }
 
@@ -97,7 +91,7 @@ a:hover {
 
 
 #p-resume #s-resume-footer {
-    grid-column: 1 / span 2;
+    grid-column: 1 / 2;
     grid-row: 3;
     justify-self: center;
     background-color: beige;
@@ -107,4 +101,9 @@ a:hover {
 
 #p-webApp {
     background-color: brown;
+}
+
+@media (max-width: 880px) {
+
+
 }
