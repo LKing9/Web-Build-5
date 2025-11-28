@@ -147,5 +147,18 @@ a:hover {
 
 @media (max-width: 880px) {
 
+.g-header {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    font-size: 1.2rem;
+}
+
+#p-home #s-main {
+    font-size: 1.4rem;
+}
+
+#p-webApp #s-webApp-main, #p-other #s-other-main {
+    grid-template-columns: 1fr 1fr;
+}
 
 }
