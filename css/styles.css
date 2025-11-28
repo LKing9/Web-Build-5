@@ -121,7 +121,26 @@ a:hover {
   margin-top: auto; /* ensures it sticks to the bottom */
 }
 
+#p-other {
+    background-color: brown;
+    font-family: "Outfit";
+}
 
+#p-other #s-other-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: beige;
+    gap: 30px;
+}
+.g-other-List {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.g-other-Image {
+  margin-top: auto; /* ensures it sticks to the bottom */
+}
 
 
 
