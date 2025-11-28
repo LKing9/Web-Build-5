@@ -8,7 +8,7 @@
     grid-template-rows: 150px;
     justify-items: center;
     align-items: center;
-    background-color: beige;
+    background-color: rgb(245, 220, 243);
     color: darkblue;
     border-bottom: 2px solid darkblue;
     font-family: "Irish Grover";
@@ -101,6 +101,7 @@ a:hover {
 
 #p-webApp {
     background-color: brown;
+    font-family: "Outfit";
 }
 
 #p-webApp #s-webApp-main {
